@@ -62,7 +62,7 @@ ul{
     display: flex;
     justify-content: center;
 }
-li{
+.button{
     border-radius: 50%;
     height: 40px;
     width: 40px;
@@ -74,10 +74,13 @@ li{
     border: none;
     cursor: pointer;
 }
-li:hover{
+.button:hover{
     background-color: #fb7413;
     color: #fff;
     transition: 0.5s;
+}
+input[type="radio"]{
+    display: none;
 }
 .submit{
     background-color:  #fb7413;
