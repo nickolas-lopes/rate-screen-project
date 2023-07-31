@@ -18,7 +18,7 @@ submitBtn.addEventListener('click', () => {
         greetings.style.display = 'flex';
         greetings.style.justifyContent = 'center';
         greetings.style.alignItems = 'center';
-        displayRate.innerHTML = ` ${selectedRate}`
+        displayRate.innerHTML = ` You selected  ${selectedRate} out of 5`
         greetings.classList.add('info');
     }
 })
